@@ -1,0 +1,445 @@
+{
+  "navbar": {
+    "logo": "AD-Newtech",
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Nous Créons des Solutions Numériques Modernes",
+    "subtext": "Sites Web, Applications Mobiles, Logiciels de Bureau et Agents IA",
+    "ctaQuote": "Demander un Devis",
+    "ctaWork": "Nos Réalisations"
+  },
+  "services": {
+    "title": "Nos Services",
+    "website": {
+      "title": "Développement Web",
+      "description": "Sites web modernes et réactifs construits avec les dernières technologies pour faire prospérer votre entreprise en ligne."
+    },
+    "mobile": {
+      "title": "Développement d'Applications Mobiles",
+      "description": "Applications mobiles natives et multiplateformes offrant des expériences utilisateur exceptionnelles."
+    },
+    "desktop": {
+      "title": "Logiciels de Bureau",
+      "description": "Applications de bureau puissantes adaptées à vos besoins commerciaux et flux de travail spécifiques."
+    },
+    "ai": {
+      "title": "Agents IA et Automatisation",
+      "description": "Solutions d'automatisation intelligentes qui rationalisent vos processus et augmentent la productivité."
+    }
+  },
+  "portfolio": {
+    "title": "Projets Récents",
+    "viewAll": "Voir Tous les Projets",
+    "project1": {
+      "title": "Plateforme E-Commerce",
+      "description": "Une expérience d'achat en ligne moderne avec paiement fluide et gestion des stocks."
+    },
+    "project2": {
+      "title": "Tableau de Bord Santé",
+      "description": "Système complet de gestion des patients avec analyses et rapports en temps réel."
+    },
+    "project3": {
+      "title": "Intégration de Chatbot IA",
+      "description": "Automatisation intelligente du support client avec traitement du langage naturel."
+    }
+  },
+  "howWeWork": {
+    "title": "Notre Méthode de Travail",
+    "step1": {
+      "title": "Comprendre les Besoins",
+      "description": "Nous écoutons vos objectifs et défis"
+    },
+    "step2": {
+      "title": "Concevoir la Solution",
+      "description": "Créer le plan parfait pour le succès"
+    },
+    "step3": {
+      "title": "Développement",
+      "description": "Construction avec précision et qualité"
+    },
+    "step4": {
+      "title": "Livraison et Support",
+      "description": "Lancement et maintenance de votre solution"
+    }
+  },
+  "footer": {
+    "contact": "Contactez-nous",
+    "email": "contact@ad-newtech.com",
+    "phone": "+1 234 567 890",
+    "rights": "© 2025 AD-Newtech. Tous droits réservés."
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Contactez-nous",
+      "subtitle": "Construisons ensemble votre prochaine solution numérique. Contactez-nous et discutons de la manière dont nous pouvons transformer vos idées en réalité."
+    },
+    "details": {
+      "title": "Entrer en Contact",
+      "email": {
+        "label": "Email",
+        "value": "contact@ad-newtech.com"
+      },
+      "phone": {
+        "label": "Téléphone",
+        "value": "+213 123 456 789"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "+213 123 456 789"
+      },
+      "location": {
+        "label": "Localisation",
+        "value": "Alger, Algérie"
+      },
+      "hours": {
+        "label": "Heures d'Ouverture",
+        "value": "Dim - Jeu: 9h00 - 18h00"
+      },
+      "social": "Suivez-nous"
+    },
+    "form": {
+      "title": "Envoyez-nous un Message",
+      "name": {
+        "label": "Nom Complet",
+        "placeholder": "Jean Dupont"
+      },
+      "email": {
+        "label": "Adresse Email",
+        "placeholder": "jean@exemple.com"
+      },
+      "phone": {
+        "label": "Numéro de Téléphone (Optionnel)",
+        "placeholder": "+33 1 23 45 67 89"
+      },
+      "company": {
+        "label": "Entreprise (Optionnel)",
+        "placeholder": "Nom de votre entreprise"
+      },
+      "service": {
+        "label": "Type de Service",
+        "placeholder": "Sélectionnez un service",
+        "options": {
+          "website": "Développement Web",
+          "mobile": "Développement d'Application Mobile",
+          "desktop": "Application de Bureau",
+          "ai": "Agent IA / Automatisation",
+          "custom": "Projet Personnalisé"
+        }
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Parlez-nous de votre projet..."
+      },
+      "submit": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "success": "Merci ! Votre message a été envoyé avec succès. Nous vous répondrons bientôt.",
+      "error": "Oups ! Une erreur s'est produite. Veuillez réessayer ou nous contacter directement par email."
+    }
+  },
+  "projectsPage": {
+    "header": {
+      "title": "Nos Projets",
+      "subtitle": "Découvrez notre portfolio de sites web professionnels, applications mobiles, logiciels de bureau et solutions alimentées par l'IA qui ont aidé les entreprises à se transformer numériquement."
+    },
+    "filters": {
+      "all": "Tous",
+      "websites": "Sites Web",
+      "mobile": "Apps Mobiles",
+      "desktop": "Apps Bureau",
+      "ai": "Agents IA",
+      "erp": "Systèmes ERP"
+    },
+    "featured": {
+      "title": "Projet Vedette",
+      "badge": "Vedette"
+    },
+    "projects": [
+      {
+        "title": "AlkoCars – Plateforme de Vente et Import de Voitures",
+        "description": "Application web full-stack pour la vente de voitures et leur importation de Corée du Sud vers l'Algérie. Comprend un tableau de bord administrateur complet avec analyses, gestion des voitures/marques/paiements/finances/transactions et générateur PDF pour contrats, factures et documents de réservation.",
+        "category": "websites",
+        "tags": ["Next.js", "TailwindCSS", "Node.js", "MongoDB"],
+        "featured": true
+      },
+      {
+        "title": "MK Exports",
+        "description": "Site web officiel de MK Exports, une entreprise algérienne spécialisée dans l'exportation de produits locaux vers les marchés mondiaux.",
+        "category": "websites",
+        "tags": ["Next.js", "React", "TailwindCSS"]
+      },
+      {
+        "title": "Bayti",
+        "description": "Plateforme immobilière connectant acheteurs et vendeurs sur le marché algérien avec visites virtuelles et mises à jour en temps réel.",
+        "category": "websites",
+        "tags": ["React", "Supabase", "TailwindCSS"]
+      },
+      {
+        "title": "QuickMenu",
+        "description": "Application web pour créer et gérer des plans de repas avec suggestions de recettes personnalisées.",
+        "category": "websites",
+        "tags": ["React", "Node.js", "MongoDB"]
+      },
+      {
+        "title": "Application POS Hammam",
+        "description": "Système de point de vente de bureau pour Hammam. Gestion des stocks, clients et employés, plus gestion des clés de casiers. Conçu pour machines POS avec interface rapide et claire.",
+        "category": "desktop",
+        "tags": ["Electron", "React", "SQLite"],
+        "featured": true
+      },
+      {
+        "title": "SmartStock",
+        "description": "Système de gestion de stock basé IoT pour suivi et alertes automatiques.",
+        "category": "erp",
+        "tags": ["React", "Node.js", "Firebase", "IoT"]
+      },
+      {
+        "title": "Site Prepanova",
+        "description": "Plateforme web offrant des outils d'étude et ressources pour étudiants.",
+        "category": "websites",
+        "tags": ["Next.js", "Supabase", "TailwindCSS"]
+      },
+      {
+        "title": "ENSTA Cloud",
+        "description": "Plateforme cloud interne pour partage de fichiers et collaboration entre étudiants.",
+        "category": "websites",
+        "tags": ["React", "Express.js", "PostgreSQL"]
+      },
+      {
+        "title": "MedFlow",
+        "description": "Système de gestion santé simplifiant l'organisation des données patients et rendez-vous.",
+        "category": "websites",
+        "tags": ["React", "Node.js", "MongoDB"]
+      },
+      {
+        "title": "MedApp",
+        "description": "Application Flutter de gestion d'hôpitaux, cliniques et pharmacies avec comptage des files et scan d'ordonnances.",
+        "category": "mobile",
+        "tags": ["Flutter", "Firebase", "Google ML Kit"]
+      },
+      {
+        "title": "Your Space",
+        "description": "Application éducative d'astronomie utilisant les APIs NASA, avec données spatiales en temps réel et animation 3D de la Terre.",
+        "category": "mobile",
+        "tags": ["Flutter", "NASA APIs", "3D Animation"]
+      },
+      {
+        "title": "Restu App",
+        "description": "Système de commande restaurant où Flutter est utilisé sur mobile par les serveurs et connecté à une application desktop C# via Firebase pour la gestion de cuisine.",
+        "category": "desktop",
+        "tags": ["Flutter", "Firebase", "C#", "WinForms"]
+      },
+      {
+        "title": "Système de Gestion des Employés",
+        "description": "Un outil RH de bureau construit avec C# et SQL pour gérer les dossiers des employés, la présence et les salaires.",
+        "category": "desktop",
+        "tags": ["C#", "SQL Server", "WinForms"]
+      },
+      {
+        "title": "Répondeur Email Automatique",
+        "description": "Un système de réponse email automatisé utilisant des scripts et de la logique pour simuler des réponses contextuelles intelligentes.",
+        "category": "ai",
+        "tags": ["Python", "Gmail API", "OpenAI API"]
+      },
+      {
+        "title": "Bot Telegram de Recommandation de Séries",
+        "description": "Un bot Telegram qui suggère des séries TV en utilisant le filtrage de contenu et les préférences de genre.",
+        "category": "ai",
+        "tags": ["Python", "Telegram Bot API"]
+      }
+    ],
+    "viewDetails": "Voir le Projet",
+    "technologies": {
+      "title": "Technologies Que Nous Utilisons",
+      "subtitle": "Nous exploitons des outils et frameworks de pointe pour obtenir des résultats exceptionnels."
+    },
+    "cta": {
+      "title": "Vous Voulez Travailler Avec Nous ?",
+      "subtitle": "Discutons de votre prochain projet et donnons vie à votre vision.",
+      "button": "Contactez-nous"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "À Propos d'AD-Newtech",
+      "subtitle": "Nous sommes une équipe technologique spécialisée dédiée à fournir des solutions numériques modernes, efficaces et innovantes pour les entreprises de toutes tailles."
+    },
+    "overview": {
+      "title": "Ce Que Nous Faisons",
+      "description": "AD-Newtech se spécialise dans la création d'applications web de pointe, d'applications mobiles, de logiciels de bureau et de solutions alimentées par l'IA. Nous nous concentrons sur la qualité, l'efficacité et l'innovation pour aider les entreprises à transformer leur présence numérique et à rationaliser leurs opérations.",
+      "values": [
+        "Approche axée sur la qualité",
+        "Processus de développement efficaces",
+        "Solutions axées sur l'innovation",
+        "Pile technologique moderne"
+      ]
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Donner aux entreprises les moyens d'agir avec des solutions technologiques de pointe qui stimulent la croissance, améliorent la productivité et créent une valeur durable."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "description": "Être le partenaire de confiance des entreprises à la recherche de solutions logicielles modernes, évolutives et sécurisées qui transforment leurs opérations commerciales."
+    },
+    "expertise": {
+      "title": "Notre Expertise",
+      "roles": [
+        {
+          "title": "Développeur Web Full-Stack",
+          "description": "Expert dans la création d'applications web réactives et performantes utilisant React, Next.js, Node.js et les technologies cloud modernes."
+        },
+        {
+          "title": "Développeur Mobile et Bureau",
+          "description": "Spécialisé dans les applications mobiles multiplateformes et les logiciels de bureau utilisant Flutter, React Native et Electron pour des expériences utilisateur fluides."
+        },
+        {
+          "title": "Ingénieur IA et Automatisation",
+          "description": "Développement de solutions d'automatisation intelligentes, d'agents IA et de modèles d'apprentissage automatique pour optimiser les processus métier et la prise de décision."
+        }
+      ]
+    },
+    "whyChoose": {
+      "title": "Pourquoi Choisir AD-Newtech ?",
+      "reasons": [
+        "Équipe petite et spécialisée garantissant une livraison rapide et une attention personnalisée",
+        "Expertise en technologies modernes et meilleures pratiques",
+        "Communication transparente tout au long du cycle de vie du projet",
+        "Solutions évolutives et sécurisées conçues pour grandir avec votre entreprise",
+        "Engagement envers la qualité et les partenariats à long terme",
+        "Flexible et adaptable à vos exigences uniques"
+      ]
+    },
+    "process": {
+      "title": "Notre Méthode de Travail",
+      "steps": [
+        {
+          "title": "Compréhension",
+          "description": "Nous plongeons profondément dans vos exigences et objectifs commerciaux"
+        },
+        {
+          "title": "Conception",
+          "description": "Créer l'architecture et l'expérience utilisateur parfaites"
+        },
+        {
+          "title": "Développement",
+          "description": "Construction avec précision en utilisant des technologies modernes"
+        },
+        {
+          "title": "Tests",
+          "description": "Assurance qualité rigoureuse et optimisation des performances"
+        },
+        {
+          "title": "Livraison et Support",
+          "description": "Déploiement fluide et maintenance continue"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Construisons Quelque Chose Ensemble",
+      "subtitle": "Prêt à démarrer votre prochain projet ? Nous sommes là pour vous aider à donner vie à votre vision.",
+      "button": "Contactez-nous"
+    }
+  },
+  "servicesPage": {
+    "header": {
+      "title": "Nos Services",
+      "subtitle": "Donner aux entreprises les moyens d'agir avec des solutions technologiques de pointe adaptées à vos besoins uniques."
+    },
+    "serviceCards": {
+      "website": {
+        "title": "Développement Web",
+        "description": "Sites web modernes et réactifs construits avec les dernières technologies pour faire prospérer votre entreprise en ligne."
+      },
+      "mobile": {
+        "title": "Développement d'Applications Mobiles",
+        "description": "Applications mobiles natives et multiplateformes offrant des expériences utilisateur exceptionnelles."
+      },
+      "desktop": {
+        "title": "Logiciels de Bureau",
+        "description": "Applications de bureau puissantes adaptées à vos besoins commerciaux et flux de travail spécifiques."
+      },
+      "ai": {
+        "title": "Agents IA et Automatisation",
+        "description": "Solutions d'automatisation intelligentes qui rationalisent vos processus et augmentent la productivité."
+      },
+      "customTools": {
+        "title": "Outils Métier Personnalisés",
+        "description": "Solutions logicielles sur mesure conçues pour résoudre vos défis commerciaux uniques."
+      },
+      "integrations": {
+        "title": "Intégrations de Systèmes",
+        "description": "Connectez de manière transparente vos systèmes et outils existants pour une efficacité améliorée."
+      }
+    },
+    "details": {
+      "website": {
+        "title": "Expertise en Développement Web",
+        "description": "Nous créons des sites web époustouflants et performants qui convertissent les visiteurs en clients.",
+        "features": [
+          "Design réactif pour tous les appareils",
+          "Optimisé pour les moteurs de recherche",
+          "APIs backend sécurisées",
+          "Tableaux de bord personnalisés",
+          "Fonctionnalités e-commerce",
+          "Systèmes de gestion de contenu"
+        ]
+      },
+      "mobile": {
+        "title": "Excellence en Applications Mobiles",
+        "description": "Créez de belles expériences mobiles que les utilisateurs adorent et utilisent quotidiennement.",
+        "features": [
+          "Développement iOS et Android",
+          "Solutions multiplateformes (Flutter, React Native)",
+          "Architecture offline-first",
+          "Notifications push et mises à jour en temps réel",
+          "Achats intégrés et monétisation",
+          "Optimisation pour les app stores"
+        ]
+      },
+      "desktop": {
+        "title": "Solutions Logicielles de Bureau",
+        "description": "Applications de bureau robustes qui améliorent la productivité et rationalisent les opérations.",
+        "features": [
+          "Compatibilité multiplateforme (Windows, Mac, Linux)",
+          "Calcul haute performance",
+          "Intégration de bases de données",
+          "Visualisation avancée des données",
+          "Flux de travail automatisés",
+          "Gestion sécurisée des données"
+        ]
+      },
+      "ai": {
+        "title": "Puissance de l'IA et de l'Automatisation",
+        "description": "Exploitez la puissance de l'intelligence artificielle pour transformer vos processus métier.",
+        "features": [
+          "Agents IA et chatbots personnalisés",
+          "Automatisation des processus et RPA",
+          "Modèles d'apprentissage automatique",
+          "Traitement du langage naturel",
+          "Analyses prédictives",
+          "Extraction intelligente de données"
+        ]
+      }
+    },
+    "technologies": {
+      "title": "Technologies Que Nous Utilisons",
+      "subtitle": "Nous travaillons avec des technologies modernes et éprouvées pour obtenir des résultats exceptionnels.",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "ai": "IA et ML",
+      "database": "Base de données",
+      "cloud": "Cloud"
+    },
+    "cta": {
+      "title": "Construisons Votre Projet",
+      "subtitle": "Prêt à transformer vos idées en réalité ? Contactez-nous dès aujourd'hui.",
+      "button": "Démarrez Votre Projet"
+    }
+  }
+}

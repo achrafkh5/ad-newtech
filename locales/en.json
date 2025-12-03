@@ -1,0 +1,445 @@
+{
+  "navbar": {
+    "logo": "AD-Newtech",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "We Build Modern Digital Solutions",
+    "subtext": "Websites, Mobile Apps, Desktop Software, and AI Agents",
+    "ctaQuote": "Get a Quote",
+    "ctaWork": "Our Work"
+  },
+  "services": {
+    "title": "Our Services",
+    "website": {
+      "title": "Website Development",
+      "description": "Modern, responsive websites built with the latest technologies to help your business thrive online."
+    },
+    "mobile": {
+      "title": "Mobile App Development",
+      "description": "Native and cross-platform mobile applications that deliver exceptional user experiences."
+    },
+    "desktop": {
+      "title": "Desktop Software",
+      "description": "Powerful desktop applications tailored to your specific business needs and workflows."
+    },
+    "ai": {
+      "title": "AI Agents & Automation",
+      "description": "Intelligent automation solutions that streamline your processes and boost productivity."
+    }
+  },
+  "portfolio": {
+    "title": "Recent Projects",
+    "viewAll": "View All Projects",
+    "project1": {
+      "title": "E-Commerce Platform",
+      "description": "A modern online shopping experience with seamless checkout and inventory management."
+    },
+    "project2": {
+      "title": "Healthcare Dashboard",
+      "description": "Comprehensive patient management system with real-time analytics and reporting."
+    },
+    "project3": {
+      "title": "AI Chatbot Integration",
+      "description": "Intelligent customer support automation with natural language processing."
+    }
+  },
+  "howWeWork": {
+    "title": "How We Work",
+    "step1": {
+      "title": "Understanding Needs",
+      "description": "We listen to your goals and challenges"
+    },
+    "step2": {
+      "title": "Designing Solution",
+      "description": "Creating the perfect blueprint for success"
+    },
+    "step3": {
+      "title": "Development",
+      "description": "Building with precision and quality"
+    },
+    "step4": {
+      "title": "Delivery & Support",
+      "description": "Launching and maintaining your solution"
+    }
+  },
+  "footer": {
+    "contact": "Contact Us",
+    "email": "contact@ad-newtech.com",
+    "phone": "+1 234 567 890",
+    "rights": "© 2025 AD-Newtech. All rights reserved."
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Let's build your next digital solution together. Get in touch and let's discuss how we can help transform your ideas into reality."
+    },
+    "details": {
+      "title": "Get In Touch",
+      "email": {
+        "label": "Email",
+        "value": "contact@ad-newtech.com"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+213 123 456 789"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "+213 123 456 789"
+      },
+      "location": {
+        "label": "Location",
+        "value": "Algiers, Algeria"
+      },
+      "hours": {
+        "label": "Business Hours",
+        "value": "Sun - Thu: 9:00 AM - 6:00 PM"
+      },
+      "social": "Follow Us"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": {
+        "label": "Full Name",
+        "placeholder": "John Doe"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "john@example.com"
+      },
+      "phone": {
+        "label": "Phone Number (Optional)",
+        "placeholder": "+1 234 567 890"
+      },
+      "company": {
+        "label": "Company (Optional)",
+        "placeholder": "Your Company Name"
+      },
+      "service": {
+        "label": "Service Type",
+        "placeholder": "Select a service",
+        "options": {
+          "website": "Website Development",
+          "mobile": "Mobile App Development",
+          "desktop": "Desktop Application",
+          "ai": "AI Agent / Automation",
+          "custom": "Custom Project"
+        }
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell us about your project..."
+      },
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been sent successfully. We'll get back to you soon.",
+      "error": "Oops! Something went wrong. Please try again or contact us directly via email."
+    }
+  },
+  "projectsPage": {
+    "header": {
+      "title": "Our Projects",
+      "subtitle": "Explore our portfolio of professional websites, mobile apps, desktop software, and AI-powered solutions that have helped businesses transform digitally."
+    },
+    "filters": {
+      "all": "All",
+      "websites": "Websites",
+      "mobile": "Mobile Apps",
+      "desktop": "Desktop Apps",
+      "ai": "AI Agents",
+      "erp": "ERP Systems"
+    },
+    "featured": {
+      "title": "Featured Project",
+      "badge": "Featured"
+    },
+    "projects": [
+      {
+        "title": "AlkoCars – Car Selling & Importing Platform",
+        "description": "Full-stack web application for selling cars and importing them from South Korea to Algeria. Includes a complete Admin Dashboard with overview analytics, cars/brands/payments/finance/transactions management and a PDF document generator for contracts, invoices and reservation papers.",
+        "category": "websites",
+        "tags": ["Next.js", "TailwindCSS", "Node.js", "MongoDB"],
+        "featured": true
+      },
+      {
+        "title": "MK Exports",
+        "description": "Official website for MK Exports, an Algerian company specializing in exporting local products to global markets.",
+        "category": "websites",
+        "tags": ["Next.js", "React", "TailwindCSS"]
+      },
+      {
+        "title": "Bayti",
+        "description": "Real estate platform connecting buyers and sellers in the Algerian market with virtual tours and real-time updates.",
+        "category": "websites",
+        "tags": ["React", "Supabase", "TailwindCSS"]
+      },
+      {
+        "title": "QuickMenu",
+        "description": "Web application for creating and managing meal plans with personalized recipe suggestions.",
+        "category": "websites",
+        "tags": ["React", "Node.js", "MongoDB"]
+      },
+      {
+        "title": "Hammam POS Desktop App",
+        "description": "Desktop point-of-sale system built for a Hammam. Features stock, client and worker management, plus safe-key management for locker keys. Designed for POS machines with a clean and fast UI/UX.",
+        "category": "desktop",
+        "tags": ["Electron", "React", "SQLite"],
+        "featured": true
+      },
+      {
+        "title": "SmartStock",
+        "description": "IoT-based inventory management system for automated stock tracking and alerts.",
+        "category": "erp",
+        "tags": ["React", "Node.js", "Firebase", "IoT"]
+      },
+      {
+        "title": "Prepanova Website",
+        "description": "Web platform providing study tools and resources for students.",
+        "category": "websites",
+        "tags": ["Next.js", "Supabase", "TailwindCSS"]
+      },
+      {
+        "title": "ENSTA Cloud",
+        "description": "Internal cloud platform for file-sharing and collaboration among students.",
+        "category": "websites",
+        "tags": ["React", "Express.js", "PostgreSQL"]
+      },
+      {
+        "title": "MedFlow",
+        "description": "Healthcare management system simplifying patient data organization and appointments.",
+        "category": "websites",
+        "tags": ["React", "Node.js", "MongoDB"]
+      },
+      {
+        "title": "MedApp",
+        "description": "Flutter app for managing hospitals, clinics and pharmacies with real-time queue counters and prescription scanning.",
+        "category": "mobile",
+        "tags": ["Flutter", "Firebase", "Google ML Kit"]
+      },
+      {
+        "title": "Your Space",
+        "description": "An astronomy educational app using NASA APIs with real-time space data and 3D Earth animation.",
+        "category": "mobile",
+        "tags": ["Flutter", "NASA APIs", "3D Animation"]
+      },
+      {
+        "title": "Restu App",
+        "description": "A restaurant ordering system where Flutter is used on mobile by waiters and connected to a desktop C# app via Firebase for kitchen management.",
+        "category": "desktop",
+        "tags": ["Flutter", "Firebase", "C#", "WinForms"]
+      },
+      {
+        "title": "Employee Management System",
+        "description": "A desktop HR tool built with C# and SQL to manage employee records, attendance, and salaries.",
+        "category": "desktop",
+        "tags": ["C#", "SQL Server", "WinForms"]
+      },
+      {
+        "title": "Mail Auto Responder",
+        "description": "An automated email reply system using scripting and logic to simulate smart contextual responses.",
+        "category": "ai",
+        "tags": ["Python", "Gmail API", "OpenAI API"]
+      },
+      {
+        "title": "Telegram Show Recommender Bot",
+        "description": "A Telegram bot that suggests TV shows using content filtering and genre preferences.",
+        "category": "ai",
+        "tags": ["Python", "Telegram Bot API"]
+      }
+    ],
+    "viewDetails": "View Project",
+    "technologies": {
+      "title": "Technologies We Use",
+      "subtitle": "We leverage cutting-edge tools and frameworks to deliver exceptional results."
+    },
+    "cta": {
+      "title": "Want to Work With Us?",
+      "subtitle": "Let's discuss your next project and bring your vision to life.",
+      "button": "Contact Us"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "About AD-Newtech",
+      "subtitle": "We are a specialized tech team dedicated to delivering modern, efficient, and innovative digital solutions for businesses of all sizes."
+    },
+    "overview": {
+      "title": "What We Do",
+      "description": "AD-Newtech specializes in building cutting-edge web applications, mobile apps, desktop software, and AI-powered solutions. We focus on quality, efficiency, and innovation to help businesses transform their digital presence and streamline their operations.",
+      "values": [
+        "Quality-first approach",
+        "Efficient development processes",
+        "Innovation-driven solutions",
+        "Modern technology stack"
+      ]
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower businesses with state-of-the-art technology solutions that drive growth, enhance productivity, and create lasting value."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the trusted partner for companies seeking modern, scalable, and secure software solutions that transform their business operations."
+    },
+    "expertise": {
+      "title": "Our Expertise",
+      "roles": [
+        {
+          "title": "Full-Stack Web Developer",
+          "description": "Expert in building responsive, high-performance web applications using React, Next.js, Node.js, and modern cloud technologies."
+        },
+        {
+          "title": "Mobile & Desktop Developer",
+          "description": "Specializing in cross-platform mobile apps and desktop software using Flutter, React Native, and Electron for seamless user experiences."
+        },
+        {
+          "title": "AI & Automation Engineer",
+          "description": "Developing intelligent automation solutions, AI agents, and machine learning models to optimize business processes and decision-making."
+        }
+      ]
+    },
+    "whyChoose": {
+      "title": "Why Choose AD-Newtech?",
+      "reasons": [
+        "Small, specialized team ensures fast delivery and personalized attention",
+        "Expertise in modern technologies and best practices",
+        "Transparent communication throughout the project lifecycle",
+        "Scalable and secure solutions built to grow with your business",
+        "Commitment to quality and long-term partnerships",
+        "Flexible and adaptive to your unique requirements"
+      ]
+    },
+    "process": {
+      "title": "How We Work",
+      "steps": [
+        {
+          "title": "Understanding",
+          "description": "We dive deep into your requirements and business goals"
+        },
+        {
+          "title": "Design",
+          "description": "Creating the perfect architecture and user experience"
+        },
+        {
+          "title": "Development",
+          "description": "Building with precision using modern technologies"
+        },
+        {
+          "title": "Testing",
+          "description": "Rigorous quality assurance and performance optimization"
+        },
+        {
+          "title": "Delivery & Support",
+          "description": "Smooth deployment and ongoing maintenance"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Let's Build Something Together",
+      "subtitle": "Ready to start your next project? We're here to help bring your vision to life.",
+      "button": "Get in Touch"
+    }
+  },
+  "servicesPage": {
+    "header": {
+      "title": "Our Services",
+      "subtitle": "Empowering businesses with cutting-edge technology solutions tailored to your unique needs."
+    },
+    "serviceCards": {
+      "website": {
+        "title": "Website Development",
+        "description": "Modern, responsive websites built with the latest technologies to help your business thrive online."
+      },
+      "mobile": {
+        "title": "Mobile App Development",
+        "description": "Native and cross-platform mobile applications that deliver exceptional user experiences."
+      },
+      "desktop": {
+        "title": "Desktop Software",
+        "description": "Powerful desktop applications tailored to your specific business needs and workflows."
+      },
+      "ai": {
+        "title": "AI Agents & Automation",
+        "description": "Intelligent automation solutions that streamline your processes and boost productivity."
+      },
+      "customTools": {
+        "title": "Custom Business Tools",
+        "description": "Bespoke software solutions designed to solve your unique business challenges."
+      },
+      "integrations": {
+        "title": "System Integrations",
+        "description": "Seamlessly connect your existing systems and tools for improved efficiency."
+      }
+    },
+    "details": {
+      "website": {
+        "title": "Website Development Expertise",
+        "description": "We create stunning, high-performance websites that convert visitors into customers.",
+        "features": [
+          "Responsive design for all devices",
+          "SEO optimized for search engines",
+          "Secure backend APIs",
+          "Custom dashboard systems",
+          "E-commerce features",
+          "Content management systems"
+        ]
+      },
+      "mobile": {
+        "title": "Mobile App Excellence",
+        "description": "Build beautiful mobile experiences that users love and engage with daily.",
+        "features": [
+          "iOS and Android development",
+          "Cross-platform solutions (Flutter, React Native)",
+          "Offline-first architecture",
+          "Push notifications & real-time updates",
+          "In-app purchases & monetization",
+          "App store optimization"
+        ]
+      },
+      "desktop": {
+        "title": "Desktop Software Solutions",
+        "description": "Robust desktop applications that enhance productivity and streamline operations.",
+        "features": [
+          "Cross-platform compatibility (Windows, Mac, Linux)",
+          "High-performance computing",
+          "Database integration",
+          "Advanced data visualization",
+          "Automated workflows",
+          "Secure data handling"
+        ]
+      },
+      "ai": {
+        "title": "AI & Automation Power",
+        "description": "Harness the power of artificial intelligence to transform your business processes.",
+        "features": [
+          "Custom AI agents & chatbots",
+          "Process automation & RPA",
+          "Machine learning models",
+          "Natural language processing",
+          "Predictive analytics",
+          "Intelligent data extraction"
+        ]
+      }
+    },
+    "technologies": {
+      "title": "Technologies We Use",
+      "subtitle": "We work with modern, proven technologies to deliver exceptional results.",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "ai": "AI & ML",
+      "database": "Database",
+      "cloud": "Cloud"
+    },
+    "cta": {
+      "title": "Let's Build Your Project",
+      "subtitle": "Ready to transform your ideas into reality? Get in touch with us today.",
+      "button": "Start Your Project"
+    }
+  }
+}
