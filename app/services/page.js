@@ -110,25 +110,25 @@ export default function ServicesPage() {
       
       <main>
         {/* Header Section */}
-        <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#F0F5F1] via-white to-[#CAD2C5]/20 dark:from-[#1A1D1A] dark:via-[#1A1D1A] dark:to-[#2D6A4F]/10">
+        <section className="relative min-h-[50vh] sm:min-h-[55vh] lg:min-h-[60vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#F0F5F1] via-white to-[#CAD2C5]/20 dark:from-[#1A1D1A] dark:via-[#1A1D1A] dark:to-[#2D6A4F]/10">
           {/* Organic background shapes */}
-          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#2D6A4F]/10 dark:bg-[#2D6A4F]/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
-          <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[#FFB703]/10 dark:bg-[#FFB703]/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/3"></div>
+          <div className="absolute top-0 right-0 w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[500px] lg:h-[500px] bg-[#2D6A4F]/10 dark:bg-[#2D6A4F]/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
+          <div className="absolute bottom-0 left-0 w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] bg-[#FFB703]/10 dark:bg-[#FFB703]/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/3"></div>
 
-          <div className="relative z-10 max-w-5xl mx-auto px-6 py-20 text-center">
-            <h1 className="text-5xl md:text-6xl font-bold text-[#1A1D1A] dark:text-white leading-tight mb-6">
+          <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16 lg:py-20 text-center">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#1A1D1A] dark:text-white leading-tight mb-4 sm:mb-6">
               {t('servicesPage.header.title')}
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
               {t('servicesPage.header.subtitle')}
             </p>
           </div>
         </section>
 
         {/* Services Grid */}
-        <section className="py-20 px-6 bg-white dark:bg-[#1A1D1A]">
+        <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-white dark:bg-[#1A1D1A]">
           <div className="max-w-7xl mx-auto">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               {serviceCards.map((service, index) => (
                 <ServiceCard key={index} {...service} delay={index * 100} />
               ))}
@@ -137,7 +137,7 @@ export default function ServicesPage() {
         </section>
 
         {/* Service Details Sections */}
-        <section className="py-20 px-6 bg-[#F0F5F1] dark:bg-[#0F110F]">
+        <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-[#F0F5F1] dark:bg-[#0F110F]">
           <div className="max-w-7xl mx-auto">
             {serviceDetails.map((detail, index) => (
               <ServiceDetail 
@@ -151,20 +151,20 @@ export default function ServicesPage() {
         </section>
 
         {/* Technologies Section */}
-        <section className="py-20 px-6 bg-white dark:bg-[#1A1D1A]">
+        <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-white dark:bg-[#1A1D1A]">
           <div className="max-w-7xl mx-auto">
             <SectionHeader 
               title={t('servicesPage.technologies.title')}
               subtitle={t('servicesPage.technologies.subtitle')}
             />
 
-            <div className="space-y-12">
+            <div className="space-y-8 sm:space-y-10 lg:space-y-12">
               {/* Frontend */}
               <div>
-                <h3 className="text-2xl font-bold text-[#2D6A4F] dark:text-[#CAD2C5] mb-6">
+                <h3 className="text-xl sm:text-2xl font-bold text-[#2D6A4F] dark:text-[#CAD2C5] mb-4 sm:mb-6">
                   {t('servicesPage.technologies.frontend')}
                 </h3>
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-wrap gap-2 sm:gap-3 lg:gap-4">
                   {technologies.frontend.map((tech, index) => (
                     <TechBadge key={index} name={tech} category="frontend" />
                   ))}
@@ -173,10 +173,10 @@ export default function ServicesPage() {
 
               {/* Backend */}
               <div>
-                <h3 className="text-2xl font-bold text-[#2D6A4F] dark:text-[#CAD2C5] mb-6">
+                <h3 className="text-xl sm:text-2xl font-bold text-[#2D6A4F] dark:text-[#CAD2C5] mb-4 sm:mb-6">
                   {t('servicesPage.technologies.backend')}
                 </h3>
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-wrap gap-2 sm:gap-3 lg:gap-4">
                   {technologies.backend.map((tech, index) => (
                     <TechBadge key={index} name={tech} category="backend" />
                   ))}
@@ -185,7 +185,7 @@ export default function ServicesPage() {
 
               {/* Mobile */}
               <div>
-                <h3 className="text-2xl font-bold text-[#2D6A4F] dark:text-[#CAD2C5] mb-6">
+                <h3 className="text-xl sm:text-2xl font-bold text-[#2D6A4F] dark:text-[#CAD2C5] mb-4 sm:mb-6">
                   {t('servicesPage.technologies.mobile')}
                 </h3>
                 <div className="flex flex-wrap gap-4">

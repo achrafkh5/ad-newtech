@@ -16,29 +16,29 @@ export default function ContactPage() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-6">
+      <section className="pt-24 sm:pt-28 lg:pt-32 pb-10 sm:pb-12 lg:pb-16 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-[#2D6A4F] via-[#52B788] to-[#2D6A4F] bg-clip-text text-transparent dark:from-[#52B788] dark:via-[#74C69D] dark:to-[#52B788]">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-[#2D6A4F] via-[#52B788] to-[#2D6A4F] bg-clip-text text-transparent dark:from-[#52B788] dark:via-[#74C69D] dark:to-[#52B788]">
             {t('contactPage.hero.title')}
           </h1>
-          <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg lg:text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
             {t('contactPage.hero.subtitle')}
           </p>
         </div>
       </section>
 
       {/* Main Content */}
-      <section className="pb-20 px-6">
+      <section className="pb-12 sm:pb-16 lg:pb-20 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
             {/* Left Column - Contact Details */}
-            <div className="space-y-6">
-              <div className="bg-white dark:bg-[#0D1117] rounded-3xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                <h2 className="text-3xl font-bold mb-8 text-[#2D6A4F] dark:text-[#52B788]">
+            <div className="space-y-4 sm:space-y-6">
+              <div className="bg-white dark:bg-[#0D1117] rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-xl border border-gray-200 dark:border-gray-700">
+                <h2 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 text-[#2D6A4F] dark:text-[#52B788]">
                   {t('contactPage.details.title')}
                 </h2>
 
-                <div className="space-y-6">
+                <div className="space-y-4 sm:space-y-6">
                   <ContactDetail
                     icon={<Mail className="w-6 h-6" />}
                     label={t('contactPage.details.email.label')}

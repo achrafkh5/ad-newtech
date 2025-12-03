@@ -16,7 +16,7 @@ export default function AboutPage() {
       <Navbar />
 
       {/* HERO SECTION */}
-      <section className="relative pt-32 pb-20 px-6 overflow-hidden">
+      <section className="relative pt-24 sm:pt-28 lg:pt-32 pb-12 sm:pb-16 lg:pb-20 px-4 sm:px-6 overflow-hidden">
         {/* Organic Background Shape */}
         <div className="absolute top-0 left-0 w-full h-full opacity-10">
           <svg viewBox="0 0 1440 320" className="w-full h-full">
@@ -29,25 +29,25 @@ export default function AboutPage() {
         </div>
 
         <div className="container mx-auto max-w-4xl text-center relative z-10">
-          <h1 className="text-5xl md:text-6xl font-bold text-[#2D6A4F] dark:text-[#CAD2C5] mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#2D6A4F] dark:text-[#CAD2C5] mb-4 sm:mb-6">
             {t('aboutPage.hero.title')}
           </h1>
-          <p className="text-xl text-[#1A1D1A] dark:text-gray-300 leading-relaxed">
+          <p className="text-base sm:text-lg lg:text-xl text-[#1A1D1A] dark:text-gray-300 leading-relaxed">
             {t('aboutPage.hero.subtitle')}
           </p>
         </div>
       </section>
 
       {/* COMPANY OVERVIEW SECTION */}
-      <section className="py-20 px-6">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6">
         <div className="container mx-auto max-w-6xl">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
             {/* Text Content */}
-            <div className="space-y-6">
-              <h2 className="text-4xl font-bold text-[#2D6A4F] dark:text-[#CAD2C5]">
+            <div className="space-y-4 sm:space-y-6">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#2D6A4F] dark:text-[#CAD2C5]">
                 {t('aboutPage.overview.title')}
               </h2>
-              <p className="text-lg text-[#1A1D1A] dark:text-gray-300 leading-relaxed">
+              <p className="text-base sm:text-lg text-[#1A1D1A] dark:text-gray-300 leading-relaxed">
                 {t('aboutPage.overview.description')}
               </p>
               
@@ -75,9 +75,9 @@ export default function AboutPage() {
       </section>
 
       {/* MISSION & VISION SECTION */}
-      <section className="py-20 px-6 bg-white/50 dark:bg-black/20">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-white/50 dark:bg-black/20">
         <div className="container mx-auto max-w-6xl">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
             <MissionVisionCard
               title={t('aboutPage.mission.title')}
               description={t('aboutPage.mission.description')}
@@ -102,13 +102,13 @@ export default function AboutPage() {
       </section>
 
       {/* TEAM ROLES SECTION */}
-      <section className="py-20 px-6">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl font-bold text-center text-[#2D6A4F] dark:text-[#CAD2C5] mb-16">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center text-[#2D6A4F] dark:text-[#CAD2C5] mb-10 sm:mb-12 lg:mb-16">
             {t('aboutPage.expertise.title')}
           </h2>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {t('aboutPage.expertise.roles').map((role, index) => (
               <RoleCard
                 key={index}
@@ -136,7 +136,7 @@ export default function AboutPage() {
       </section>
 
       {/* WHY CHOOSE US SECTION */}
-      <section className="py-20 px-6 relative overflow-hidden">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 relative overflow-hidden">
         {/* Organic Background Shape */}
         <div className="absolute bottom-0 right-0 w-full h-full opacity-5">
           <svg viewBox="0 0 1440 320" className="w-full h-full">
@@ -149,12 +149,12 @@ export default function AboutPage() {
         </div>
 
         <div className="container mx-auto max-w-4xl relative z-10">
-          <h2 className="text-4xl font-bold text-center text-[#2D6A4F] dark:text-[#CAD2C5] mb-12">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center text-[#2D6A4F] dark:text-[#CAD2C5] mb-8 sm:mb-10 lg:mb-12">
             {t('aboutPage.whyChoose.title')}
           </h2>
           
-          <div className="bg-[#F0F5F1] dark:bg-[#2D6A4F]/20 rounded-3xl p-10 shadow-xl">
-            <ul className="space-y-4">
+          <div className="bg-[#F0F5F1] dark:bg-[#2D6A4F]/20 rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xl">
+            <ul className="space-y-3 sm:space-y-4">
               {t('aboutPage.whyChoose.reasons').map((reason, index) => (
                 <li key={index} className="flex items-start space-x-4 rtl:space-x-reverse">
                   <svg className="w-6 h-6 text-[#FFB703] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
@@ -169,13 +169,13 @@ export default function AboutPage() {
       </section>
 
       {/* WORK PROCESS SECTION */}
-      <section className="py-20 px-6 bg-white/50 dark:bg-black/20">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-white/50 dark:bg-black/20">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl font-bold text-center text-[#2D6A4F] dark:text-[#CAD2C5] mb-16">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center text-[#2D6A4F] dark:text-[#CAD2C5] mb-10 sm:mb-12 lg:mb-16">
             {t('aboutPage.process.title')}
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 sm:gap-8 lg:gap-4">
             {t('aboutPage.process.steps').map((step, index) => (
               <TimelineStep
                 key={index}
@@ -190,7 +190,7 @@ export default function AboutPage() {
       </section>
 
       {/* CALL-TO-ACTION SECTION */}
-      <section className="py-20 px-6 relative overflow-hidden">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 relative overflow-hidden">
         {/* Organic Background Shape */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#2D6A4F] to-[#1A1D1A] dark:from-[#2D6A4F] dark:to-[#FFB703]">
           <svg viewBox="0 0 1440 320" className="absolute bottom-0 w-full opacity-20">
@@ -203,13 +203,13 @@ export default function AboutPage() {
         </div>
 
         <div className="container mx-auto max-w-4xl text-center relative z-10">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
             {t('aboutPage.cta.title')}
           </h2>
-          <p className="text-xl text-white/90 mb-10">
+          <p className="text-base sm:text-lg lg:text-xl text-white/90 mb-6 sm:mb-8 lg:mb-10">
             {t('aboutPage.cta.subtitle')}
           </p>
-          <button className="bg-[#FFB703] hover:bg-[#FFB703]/90 text-[#1A1D1A] font-bold px-10 py-4 rounded-full text-lg shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+          <button className="w-full sm:w-auto bg-[#FFB703] hover:bg-[#FFB703]/90 text-[#1A1D1A] font-bold px-8 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
             {t('aboutPage.cta.button')}
           </button>
         </div>

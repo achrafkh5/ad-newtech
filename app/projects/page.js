@@ -36,7 +36,7 @@ export default function ProjectsPage() {
       <Navbar />
 
       {/* HEADER SECTION */}
-      <section className="relative pt-32 pb-20 px-6 overflow-hidden">
+      <section className="relative pt-24 sm:pt-28 lg:pt-32 pb-12 sm:pb-16 lg:pb-20 px-4 sm:px-6 overflow-hidden">
         {/* Organic Background Shape */}
         <div className="absolute top-0 left-0 w-full h-full opacity-10">
           <svg viewBox="0 0 1440 320" className="w-full h-full">
@@ -49,19 +49,19 @@ export default function ProjectsPage() {
         </div>
 
         <div className="container mx-auto max-w-4xl text-center relative z-10">
-          <h1 className="text-5xl md:text-6xl font-bold text-[#2D6A4F] dark:text-[#CAD2C5] mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#2D6A4F] dark:text-[#CAD2C5] mb-4 sm:mb-6">
             {t('projectsPage.header.title')}
           </h1>
-          <p className="text-xl text-[#1A1D1A] dark:text-gray-300 leading-relaxed">
+          <p className="text-base sm:text-lg lg:text-xl text-[#1A1D1A] dark:text-gray-300 leading-relaxed">
             {t('projectsPage.header.subtitle')}
           </p>
         </div>
       </section>
 
       {/* FILTERS SECTION */}
-      <section className="py-12 px-6">
+      <section className="py-8 sm:py-10 lg:py-12 px-4 sm:px-6">
         <div className="container mx-auto max-w-6xl">
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-3 lg:gap-4">
             <FilterButton
               label={filters.all}
               isActive={activeFilter === 'all'}
@@ -98,13 +98,13 @@ export default function ProjectsPage() {
 
       {/* FEATURED PROJECTS SECTION */}
       {activeFilter === 'all' && (
-        <section className="py-12 px-6 bg-white/50 dark:bg-black/20">
+        <section className="py-8 sm:py-10 lg:py-12 px-4 sm:px-6 bg-white/50 dark:bg-black/20">
           <div className="container mx-auto max-w-6xl">
-            <h2 className="text-3xl font-bold text-center text-[#2D6A4F] dark:text-[#CAD2C5] mb-12">
+            <h2 className="text-2xl sm:text-3xl font-bold text-center text-[#2D6A4F] dark:text-[#CAD2C5] mb-8 sm:mb-10 lg:mb-12">
               {t('projectsPage.featured.title')}
             </h2>
             
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
               {projects
                 .filter(project => project.featured)
                 .map((project, index) => (
@@ -116,16 +116,16 @@ export default function ProjectsPage() {
       )}
 
       {/* PROJECTS GRID SECTION */}
-      <section className="py-20 px-6">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6">
         <div className="container mx-auto max-w-6xl">
           {filteredProjects.length === 0 ? (
-            <div className="text-center py-20">
-              <p className="text-xl text-[#1A1D1A] dark:text-gray-300">
+            <div className="text-center py-12 sm:py-16 lg:py-20">
+              <p className="text-lg sm:text-xl text-[#1A1D1A] dark:text-gray-300">
                 No projects found in this category.
               </p>
             </div>
           ) : (
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               {filteredProjects
                 .filter(project => !project.featured || activeFilter !== 'all')
                 .map((project, index) => (
@@ -137,18 +137,18 @@ export default function ProjectsPage() {
       </section>
 
       {/* TECHNOLOGIES SECTION */}
-      <section className="py-20 px-6 bg-white/50 dark:bg-black/20">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-white/50 dark:bg-black/20">
         <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#2D6A4F] dark:text-[#CAD2C5] mb-4">
+          <div className="text-center mb-10 sm:mb-12 lg:mb-16">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#2D6A4F] dark:text-[#CAD2C5] mb-3 sm:mb-4">
               {t('projectsPage.technologies.title')}
             </h2>
-            <p className="text-lg text-[#1A1D1A] dark:text-gray-300">
+            <p className="text-base sm:text-lg text-[#1A1D1A] dark:text-gray-300">
               {t('projectsPage.technologies.subtitle')}
             </p>
           </div>
 
-          <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 lg:gap-6">
             {technologies.map((tech, index) => (
               <TechBadge key={index} name={tech} />
             ))}
@@ -157,7 +157,7 @@ export default function ProjectsPage() {
       </section>
 
       {/* CALL-TO-ACTION SECTION */}
-      <section className="py-20 px-6 relative overflow-hidden">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 relative overflow-hidden">
         {/* Organic Background Shape */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#2D6A4F] to-[#1A1D1A] dark:from-[#2D6A4F] dark:to-[#FFB703]">
           <svg viewBox="0 0 1440 320" className="absolute bottom-0 w-full opacity-20">

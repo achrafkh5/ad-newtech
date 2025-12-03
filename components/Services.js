@@ -3,14 +3,14 @@
 import { useLanguage } from '@/context/LanguageContext';
 
 const ServiceCard = ({ icon, title, description }) => (
-  <div className="group p-8 bg-white dark:bg-[#1A1D1A] rounded-3xl shadow-md hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border border-[#CAD2C5]/20 dark:border-[#2D6A4F]/30">
-    <div className="mb-6 w-16 h-16 bg-gradient-to-br from-[#2D6A4F]/10 to-[#FFB703]/10 dark:from-[#2D6A4F]/20 dark:to-[#FFB703]/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+  <div className="group p-6 sm:p-8 bg-white dark:bg-[#1A1D1A] rounded-2xl sm:rounded-3xl shadow-md hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border border-[#CAD2C5]/20 dark:border-[#2D6A4F]/30">
+    <div className="mb-4 sm:mb-6 w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-[#2D6A4F]/10 to-[#FFB703]/10 dark:from-[#2D6A4F]/20 dark:to-[#FFB703]/20 rounded-xl sm:rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
       {icon}
     </div>
-    <h3 className="text-2xl font-bold text-[#1A1D1A] dark:text-white mb-4">
+    <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#1A1D1A] dark:text-white mb-3 sm:mb-4">
       {title}
     </h3>
-    <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+    <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 leading-relaxed">
       {description}
     </p>
   </div>
@@ -59,12 +59,12 @@ export default function Services() {
   ];
 
   return (
-    <section className="py-20 px-6 bg-white dark:bg-[#1A1D1A]">
+    <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-white dark:bg-[#1A1D1A]">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-[#1A1D1A] dark:text-white mb-16">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-[#1A1D1A] dark:text-white mb-10 sm:mb-12 lg:mb-16">
           {t('services.title')}
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 lg:gap-6">
           {services.map((service, index) => (
             <ServiceCard key={index} {...service} />
           ))}
