@@ -3,6 +3,8 @@
 import { useLanguage } from '@/context/LanguageContext';
 import { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, Send, Github, Linkedin, Facebook } from 'lucide-react';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 import ContactForm from '@/components/contact/ContactForm';
 import ContactDetail from '@/components/contact/ContactDetail';
 
@@ -11,6 +13,8 @@ export default function ContactPage() {
 
   return (
     <div dir={direction} suppressHydrationWarning className="min-h-screen bg-[#F0F5F1] dark:bg-[#1A1D1A]">
+      <Navbar />
+      
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-6">
         <div className="max-w-7xl mx-auto text-center">
@@ -125,6 +129,8 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 }
